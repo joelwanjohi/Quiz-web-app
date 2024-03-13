@@ -101,3 +101,15 @@ let questions = [
           "Debugging"
         ]
       },
+      {
+        numb: 10,
+        question: "Mistakes, usually made by the human who wrote the code?",
+        answer: "Bugs",
+        options: [
+          "Loop",
+          "Bugs",
+          "Code",
+          "Statement"
+        ]
+      },
+    ];
