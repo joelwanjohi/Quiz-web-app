@@ -234,3 +234,32 @@ footer{
     justify-content: space-between;
     border-top: 1px solid lightgrey;
 }
+footer .total_que span{
+    display: flex;
+    user-select: none;
+}
+footer .total_que span p{
+    font-weight: 500;
+    padding: 0 5px;
+}
+footer .total_que span p:first-child{
+    padding-left: 0px;
+}
+footer button{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #33ff00;
+    border: 1px solid #33ff00;
+    line-height: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}

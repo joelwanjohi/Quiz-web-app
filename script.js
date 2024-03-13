@@ -68,3 +68,36 @@ let questions = [
           "Provider"
         ]
       },
+      {
+        numb: 7,
+        question: "The language that programmers create and use to tell a computer what to do.?",
+        answer: "Code",
+        options: [
+          "Program",
+          "Condition",
+          "Function",
+          "Code"
+        ]
+      },
+        {
+        numb: 8,
+        question: "An algorithm that has been coded into something that can be run by a machine?",
+        answer: "Program",
+        options: [
+          "Debuggin",
+          "Program",
+          "Iterating",
+          "Function"
+        ]
+      },
+        {
+        numb: 9,
+        question: "Statements that only run under certain conditions?",
+        answer: "Conditional",
+        options: [
+          "Output",
+          "Conditional",
+          "Iterating",
+          "Debugging"
+        ]
+      },
