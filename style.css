@@ -159,3 +159,28 @@ body{
     height: 3px;
     background: #33ff00;
 }
+section{
+    padding: 25px 30px 20px 30px;
+    background: #fff;
+}
+section .que_text{
+    font-size: 25px;
+    font-weight: 600;
+}
+section .option_list{
+    padding: 20px 0px;
+    display: block;   
+}
+section .option_list .option{
+    background: rgb(235, 211, 196);
+    border: 1px solid #ca7d24;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

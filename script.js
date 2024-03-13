@@ -13,3 +13,25 @@ let questions = [
         "API Development "
       ]
     },
+    {
+        numb: 2,
+        question: "Which of these is not a core data type in Python?",
+        answer: "Class",
+        options: [
+          "List",
+          "Dictionary",
+          "Turple",
+          "Class"
+        ]
+      },
+        {
+        numb: 3,
+        question: "Which of the following is a Python tuple?",
+        answer: "(1,2,3,4,)",
+        options: [
+          "[1,2,3,4,]",
+          "(1,2,3,4,)",
+          "{1,2,3,4,}",
+          "{}"
+        ]
+      },
