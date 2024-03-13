@@ -25,3 +25,23 @@ body{
     box-shadow: 0 4px 8px 0 rgba(146, 166, 90, 0.2), 
                 0 6px 20px 0 rgba(146, 166, 90, 0.19);
 }
+
+.info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult{
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+.start_btn button{
+    font-size: 30px;
+    font-weight: 500;
+    color:#0088ff;
+    padding: 15px 30px;
+    border: 2px solid #33ff00;
+    
+    border-radius: 10px;
+    cursor: pointer;
+
+}
