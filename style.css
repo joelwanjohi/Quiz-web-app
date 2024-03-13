@@ -184,3 +184,53 @@ section .option_list .option{
     align-items: center;
     justify-content: space-between;
 }
+section .option_list .option:last-child{
+    margin-bottom: 0px;
+}
+section .option_list .option:hover{
+    color: #ca7d24;
+    background: #ffffff;
+    border: 1px solid #ffd9b8;
+}
+section .option_list .option.correct{
+    color: #155724;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+section .option_list .option.incorrect{
+    color: #721c24;
+    background: #f8d0a0;
+    border: 1px solid #f5c6cb;
+}
+section .option_list .option.disabled{
+    pointer-events: none;
+}
+section .option_list .option .icon{
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    line-height: 24px;
+}
+.option_list .option .icon.tick{
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;
+}
+.option_list .option .icon.cross{
+    color: #a42834;
+    background: #f8d7da;
+    border-color: #a42834;
+}
+footer{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+}

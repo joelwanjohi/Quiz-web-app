@@ -35,3 +35,36 @@ let questions = [
           "{}"
         ]
       },
+      {
+        numb: 4,
+        question: "Which is the most used programming language?",
+        answer: "JavaScript",
+        options: [
+          "C language",
+          "Python",
+          "Java",
+          "JavaScript"
+        ]
+      },
+        {
+        numb: 5,
+        question: "Which programming language is used by Flutter Developers?",
+        answer: "Dart",
+        options: [
+          "C#",
+          "Nail",
+          "Ruby",
+          "Dart"
+        ]
+      },
+      {
+        numb: 6,
+        question: "Which one is not a flutter state management?",
+        answer: "Dart",
+        options: [
+          "GetX",
+          "Dart",
+          "Block",
+          "Provider"
+        ]
+      },
